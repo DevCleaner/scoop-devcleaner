@@ -1,0 +1,25 @@
+{
+  "homepage": "https://github.com/DevCleaner/devcleaner",
+  "description": "A fast and simple cleaner for developers",
+  "version": "0.1.0",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.0/devcleaner-windows.tar.gz",
+      "hash": "6d3193a0c086eeabcdade0038aad752e39f6faa3d9c6f3ff0d9d5cf8b8879e50"
+    }
+  },
+  "bin": "devcleaner.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/devcleaner-rs/devcleaner/releases/download/v$version/devcleaner-windows.tar.gz",
+        "hash": {
+          "url": "https://github.com/devcleaner-rs/devcleaner/releases/download/v$version/devcleaner-windows.sha256",
+          "regex": "$sha256"
+        }
+      }
+    }
+  }
+}
