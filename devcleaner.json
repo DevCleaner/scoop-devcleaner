@@ -1,12 +1,12 @@
 {
   "homepage": "https://github.com/DevCleaner/devcleaner",
   "description": "A tool to search for node_modules an clean the projects selected",
-  "version": "0.1.1",
+  "version": "0.1.1.beta",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1/devcleaner-windows.tar.gz",
-      "hash": "bd77f80252c91e9d7ee8c894c372e9c7c0ae0227e949181752fa0da778240f52"
+      "url": "https://github.com/DevCleaner/devcleaner/releases/download/v0.1.1.beta/devcleaner-windows.tar.gz",
+      "hash": "20bcd1adf7cbd0d0b2c6c2cb959cdc4299efff1da669ea01c512fbaa1d8435bf"
     }
   },
   "bin": "devcleaner.exe",
